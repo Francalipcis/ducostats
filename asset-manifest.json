@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ducostats/static/css/main.ba7cbe93.css",
+    "main.js": "/ducostats/static/js/main.529fed19.js",
+    "static/js/787.1468858a.chunk.js": "/ducostats/static/js/787.1468858a.chunk.js",
+    "service-worker.js": "/ducostats/service-worker.js",
+    "static/media/duco.png": "/ducostats/static/media/duco.09050d1e1f0eca6a17a0.png",
+    "index.html": "/ducostats/index.html",
+    "main.ba7cbe93.css.map": "/ducostats/static/css/main.ba7cbe93.css.map",
+    "main.529fed19.js.map": "/ducostats/static/js/main.529fed19.js.map",
+    "787.1468858a.chunk.js.map": "/ducostats/static/js/787.1468858a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba7cbe93.css",
+    "static/js/main.529fed19.js"
+  ]
+}
