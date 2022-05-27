@@ -1,0 +1,21 @@
+.statistic{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 70px;
+    width: 130px;
+    font-size: 14.6px;
+}
+
+.statistic h3, h4{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.statistic h3{
+    margin-top: 0px;
+}
+
+.statistic h4{
+    margin-top: 0px;
+    margin-right:8px;
+}

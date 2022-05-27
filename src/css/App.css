@@ -1,0 +1,110 @@
+body{
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+.body{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background-color: #1e1e1e;
+}
+
+header img{
+  width: 55px;
+  margin-right:15px;
+  margin-left: 10px;
+}
+
+header h2{
+  font-weight: 100;
+}
+
+.statistics{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  width: 97%;
+  height: 470px;
+
+  background-color: #1e1e1e;
+}
+
+
+.statistic{
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+
+/***Users explorer styles***/
+
+
+.usersExplorer{
+  display: flex;
+  flex-direction: column;
+  height: 470px;
+  width: 97%;
+  margin-top: 30px;
+  background-color: #1e1e1e;
+}
+
+
+.inputs{
+  display: flex;
+}
+
+.inputUsers{
+  font-size: 23px;
+  height: 25px;
+  width: 230px;
+  margin-left: 5px;
+}
+
+.buttonUsers{
+  font-size: 21px;
+  width: 100px;
+  margin-left: 3px;
+}
+
+
+/*User Statistics*/
+
+
+.userStatistics .statistic{
+  display: flex;
+  justify-content: start;
+}
+
+
+
+
+
+
+
+
+/*Queris*/
+
+
+@media (width <= 470px ) {
+  .statistic{
+    margin-left: 5px; 
+    margin-left: 5px; 
+  } 
+}
+
+@media (width <= 475px ) {
+  .statistic{
+    margin-left: 15px; 
+    margin-right: 15px; 
+  } 
+}
