@@ -1,24 +1,19 @@
 {
-  "short_name": "Duco Stats",
+  "short_name": "DucoStats",
   "name": "Duino Coin Statistics",
   "icons": [
     {
       "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "type": "image/icon"
     },
     {
       "src": "duco.png",
       "type": "image/png",
       "sizes": "192x192"
-    },
-    {
-      "src": "duco.png",
-      "type": "image/png",
-      "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "./index.html",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
