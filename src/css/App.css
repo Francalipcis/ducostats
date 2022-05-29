@@ -34,7 +34,7 @@ header h2{
   margin-top: 20px;
   width: 97%;
   height: 470px;
-
+  
   background-color: #1e1e1e;
 }
 
@@ -45,6 +45,35 @@ header h2{
   margin-right: 50px;
 }
 
+/**Duco Prices Style**/
+.price .statistic h4{
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+
+.price .statistic{
+  height: 85px;
+  width: 300px;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 10px;
+  margin-top: 0%;
+}
+
+.price{
+  display: flex;
+  height: 130px;
+  width: 97%;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+  background-color: #1e1e1e;
+}
+
+
+
+
+
 
 /***Users explorer styles***/
 
@@ -52,7 +81,6 @@ header h2{
 .usersExplorer{
   display: flex;
   flex-direction: column;
-  height: 470px;
   width: 97%;
   margin-top: 30px;
   background-color: #1e1e1e;
@@ -77,12 +105,16 @@ header h2{
 }
 
 
+
+
+
 /*User Statistics*/
 
 
 .userStatistics .statistic{
   display: flex;
   justify-content: start;
+  width: 50%;
 }
 
 

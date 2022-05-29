@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import './css/App.css';
 import imgHeader from './img/duco.png'
 import Statistic from './props/statistic';
-
+import LineChart from './props/lineChart';
 
 export default class App extends Component {
   constructor (props){
@@ -16,7 +16,9 @@ export default class App extends Component {
       obtined: true,
       username:"",
       userBalance:"",
+      created:"",
       verifed:"",
+      stake:"",
     }
 
   }
@@ -62,7 +64,9 @@ export default class App extends Component {
       this.setState({
         username: this.state.userStatistics.result.username,
         userBalance: this.state.userStatistics.result.balance,
-        verifed: this.state.userStatistics.result.verified
+        verifed: this.state.userStatistics.result.verified,
+        created: this.state.userStatistics.result.created,
+        stake: this.state.userStatistics.result.stake_amount,
       })
       
     }
@@ -84,7 +88,12 @@ export default class App extends Component {
             <Statistic title="Net Energy Usage" value={this.state.resp["Net energy usage"]}></Statistic>
           </div>
 
-
+          <div className='price'>
+            <Statistic title="DUCO Price" value={this.state.resp["Duco price"]}></Statistic>
+          
+            <LineChart />
+          
+          </div>
 
 
 
@@ -99,6 +108,8 @@ export default class App extends Component {
             <div className='userStatistics'>
               <Statistic title="Wallet Name" value={this.state.username}></Statistic>
               <Statistic title="Duco balance" value={this.state.userBalance}></Statistic>
+              <Statistic title="Staking" value={this.state.stake}></Statistic>
+              <Statistic title="creation of the wallet" value={this.state.created}></Statistic>
               <Statistic title="Verifed" value={this.state.verifed}></Statistic>
             </div>
   
