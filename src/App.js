@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import './css/App.css';
 import imgHeader from './img/duco.png'
 import Statistic from './props/statistic';
-import LineChart from './props/lineChart';
 
 export default class App extends Component {
   constructor (props){
@@ -90,9 +89,6 @@ export default class App extends Component {
 
           <div className='price'>
             <Statistic title="DUCO Price" value={this.state.resp["Duco price"]}></Statistic>
-          
-            <LineChart />
-          
           </div>
 
 
