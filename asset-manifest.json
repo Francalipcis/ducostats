@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/ducostats/static/css/main.8fd1bcc1.css",
-    "main.js": "/ducostats/static/js/main.a37e9f16.js",
+    "main.css": "/ducostats/static/css/main.29409a95.css",
+    "main.js": "/ducostats/static/js/main.aac0786a.js",
     "static/js/787.1468858a.chunk.js": "/ducostats/static/js/787.1468858a.chunk.js",
+    "static/media/logoic.png": "/ducostats/static/media/logoic.733740a51d050b158601.png",
+    "static/media/ducobanner.png": "/ducostats/static/media/ducobanner.e1c2caca694fa2ab0bb4.png",
     "service-worker.js": "/ducostats/service-worker.js",
     "static/media/duco.png": "/ducostats/static/media/duco.09050d1e1f0eca6a17a0.png",
     "index.html": "/ducostats/index.html",
-    "main.8fd1bcc1.css.map": "/ducostats/static/css/main.8fd1bcc1.css.map",
-    "main.a37e9f16.js.map": "/ducostats/static/js/main.a37e9f16.js.map",
+    "main.29409a95.css.map": "/ducostats/static/css/main.29409a95.css.map",
+    "main.aac0786a.js.map": "/ducostats/static/js/main.aac0786a.js.map",
     "787.1468858a.chunk.js.map": "/ducostats/static/js/787.1468858a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8fd1bcc1.css",
-    "static/js/main.a37e9f16.js"
+    "static/css/main.29409a95.css",
+    "static/js/main.aac0786a.js"
   ]
 }
